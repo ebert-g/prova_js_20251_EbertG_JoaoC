@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Source Sans 3', sans-serif;
+    font-family: "Source Sans 3", sans-serif;
     color: #fff;
     background-color: #000;
     line-height: 1.6;
@@ -41,7 +41,7 @@ header {
     width: 100%;
     padding: 20px 0;
     z-index: 1000;
-    background-color: rgba(0, 0, 0, 0.8); 
+    background-color: rgba(0, 0, 0, 0.8);
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -238,7 +238,6 @@ header {
     max-width: 500px;
 }
 
-
 .missions {
     padding: 80px 0;
     background-color: #000;
@@ -299,7 +298,6 @@ header {
     padding-top: 20px;
 }
 
-
 .mars-beyond {
     min-height: 80vh;
     background-size: cover;
@@ -314,11 +312,14 @@ header {
     position: relative;
 }
 
-.mars-beyond::before { 
-    content: '';
+.mars-beyond::before {
+    content: "";
     position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    background: rgba(0,0,0, 0.5);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .mars-beyond-container {
@@ -393,10 +394,17 @@ header {
 }
 
 .contact-footer::before {
-    content: '';
+    content: "";
     position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    background: linear-gradient(to right, rgba(0,0,0,0.9) 30%, rgba(0,0,0,0.1));
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.9) 30%,
+        rgba(0, 0, 0, 0.1)
+    );
 }
 
 .contact-footer-container {
@@ -428,14 +436,14 @@ header {
 }
 
 footer {
-    padding: 40px 0; 
+    padding: 40px 0;
     background-color: #000;
     border-top: 1px solid #222;
 }
 
 .footer-container {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
     gap: 30px;
     flex-wrap: wrap;
@@ -450,13 +458,13 @@ footer span {
 }
 
 footer nav {
-    position: relative; 
+    position: relative;
     padding-bottom: 10px;
     margin: 0 auto;
 }
 
-footer nav::after { 
-    content: '';
+footer nav::after {
+    content: "";
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -475,7 +483,7 @@ footer nav ul {
 footer nav a {
     font-size: 14px;
     color: #fff;
-    font-weight: 700; 
+    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
     transition: color 0.3s;
@@ -489,14 +497,14 @@ footer nav a:hover {
 
 /* Center the image and position the close button */
 .imgcontainer {
-  text-align: center;
-  margin: 24px 24px 12px 24px;
-  position: relative;
+    text-align: center;
+    margin: 24px 24px 12px 24px;
+    position: relative;
 }
 
 img.avatar {
-  width: 40%;
-  border-radius: 50%;
+    width: 40%;
+    border-radius: 50%;
 }
 
 .astronauttitle {
@@ -516,74 +524,82 @@ img.avatar {
 }
 
 span.psw {
-  float: right;
-  padding-top: 16px;
+    float: right;
+    padding-top: 16px;
 }
 
 /* The Modal (background) */
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 10; /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.3); /* Black w/ opacity */
-  padding-top: 60px;
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 10; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.3); /* Black w/ opacity */
+    padding-top: 60px;
 }
 
 /* Modal Content/Box */
 .modal-content {
-  background-color: rgba(255, 255, 255, 0.5);
-  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
-  border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
 }
 
 /* The Close Button (x) */
 .close {
-  position: absolute;
-  right: 25px;
-  top: 0;
-  color: #000;
-  font-size: 35px;
-  font-weight: bold;
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
 }
 
 .close:hover,
 .close:focus {
-  color: red;
-  cursor: pointer;
+    color: red;
+    cursor: pointer;
 }
 
 /* Add Zoom Animation */
 .animate {
-  -webkit-animation: animatezoom 0.6s;
-  animation: animatezoom 0.6s
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s;
 }
 
 @-webkit-keyframes animatezoom {
-  from {-webkit-transform: scale(0)} 
-  to {-webkit-transform: scale(1)}
+    from {
+        -webkit-transform: scale(0);
+    }
+    to {
+        -webkit-transform: scale(1);
+    }
 }
-  
+
 @keyframes animatezoom {
-  from {transform: scale(0)} 
-  to {transform: scale(1)}
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
 }
 
 /* Change styles for span and cancel button on extra small screens */
 @media screen and (max-width: 300px) {
-  span.psw {
-     display: block;
-     float: none;
-  }
-  .cancelbtn {
-     width: 100%;
-  }
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
 }
 
 /* Fim CSS Modal */
@@ -644,13 +660,13 @@ span.psw {
 
 @media (max-width: 768px) {
     .header-container {
-       padding: 0 10px;
+        padding: 0 10px;
     }
     .logo img {
         height: 20px;
     }
     .shop-link {
-        display: none;  
+        display: none;
     }
     .hero-text h1 {
         font-size: 36px;
@@ -669,7 +685,7 @@ span.psw {
         background-position: center center;
     }
     .contact-footer::before {
-        background: rgba(0,0,0, 0.7);
+        background: rgba(0, 0, 0, 0.7);
     }
     .contact-footer-container {
         text-align: center;
@@ -680,4 +696,3 @@ span.psw {
         gap: 25px;
     }
 }
-
